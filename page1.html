@@ -1,0 +1,22 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Autosys Document Creator</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Autosys Document Creator</h1>
+        <label><input type="radio" name="inputMode" checked> Show below fields</label>
+        <label for="jilInput">Paste JIL here:</label>
+        <textarea id="jilInput" placeholder="Paste your Autosys JIL here..."></textarea>
+        <label for="priorityInput">Failure ticket priority (optional):</label>
+        <input type="text" id="priorityInput" placeholder="e.g., High">
+        <label for="queueInput">Failure ticket Queue Name (optional):</label>
+        <input type="text" id="queueInput" placeholder="e.g., SupportTeamQueue">
+        <button onclick="launch()">Launch</button>
+    </div>
+    <script src="js/page1.js"></script>
+</body>
+</html>
